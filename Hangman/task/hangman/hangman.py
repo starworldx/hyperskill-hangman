@@ -2,13 +2,14 @@ import random, sys
 
 print("H A N G M A N\n")
 
+
 while True:
     act = input('Type "play" to play the game, "exit" to quit:')
     if act == 'exit':
         sys.exit(0)
     elif act != 'play':
         continue
-
+    
     rand_word = random.choice(['python', 'java', 'kotlin', 'javascript'])
     hidden_word = ''
 
